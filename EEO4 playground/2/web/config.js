@@ -38,7 +38,7 @@ var config = {
             image: '',
             description: 'Star Metro runs 47 routes with 939 bus stops.',
             location: {
-                center: {-84.1609, 30.4588 },
+                center: [-84.1609, 30.4588],
                 zoom: 11,
                 pitch: 0.00,
                 bearing: 0.00
@@ -61,7 +61,7 @@ var config = {
             image: '',
             description: '',
             location: {
-                center: { -83.9416, 30.3964 },
+                center: [-83.9416, 30.3964],
                 zoom: 9.27,
                 pitch: 41,
                 bearing: -8.90
@@ -93,7 +93,7 @@ var config = {
             image: '',
             description: 'Say something cool about UUPI.  Water!',
             location: {
-                center: { -84.0991, 30.4572 },
+                center: [-84.0991, 30.4572],
                 zoom: 10.31,
                 pitch: 27.00,
                 bearing: -46.8
@@ -118,7 +118,7 @@ var config = {
             image: '',
             description: 'Say something cool about UUPI.  Sewer!',
             location: {
-                center: { -84.2674, 30.5285 },
+                center: [-84.2674, 30.5285],
                 zoom: 11.42,
                 pitch: 46,
                 bearing: -134.2
@@ -143,7 +143,7 @@ var config = {
             image: '',
             description: 'Say something cool about UUPI.  Treatment!',
             location: {
-                center: { -84.324003, 30.391765 },
+                center: [-84.324003, 30.391765],
                 zoom: 16.16,
                 pitch: 27,
                 bearing: -163.2
@@ -168,7 +168,7 @@ var config = {
             image: '',
             description: 'The peoples!',
             location: {
-                center: { -84.7602, 30.0594 },////
+                center: [-84.7602, 30.0594],////
                 zoom: 9.36,
                 pitch: 60,
                 bearing: 110.3
@@ -193,7 +193,7 @@ var config = {
             image: '',
             description: 'Parks!  Trains!  I meant Trails!',
             location: {
-                center: { -84.1596, 30.4758 },
+                center: [-84.1596, 30.4758],
                 zoom: 11.57,
                 pitch: 0,
                 bearing: 0
@@ -226,7 +226,7 @@ var config = {
             image: '',
             description: 'Regular employees',
             location: {
-                center: { -84.0426, 30.4499 },
+                center: [-84.0426, 30.4499],
                 zoom: 10.12,
                 pitch: 60,
                 bearing: -25.2
@@ -250,7 +250,7 @@ var config = {
             image: '',
             description: 'Add in the Temp employees',
             location: {
-                center: { -83.9406, 30.4767 },
+                center: [-83.9406, 30.4767],
                 zoom: 9.82,
                 pitch: 50,
                 bearing: -36.4
