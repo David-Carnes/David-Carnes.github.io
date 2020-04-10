@@ -22,11 +22,19 @@ var config = {
             },
             onChapterEnter: [
                 {
+                    layer: 'water-mains',
+                    opacity: 0
+                },
+                {
                     layer: 'star-metro-stops',
                     opacity: 0
                 },
                 {
                     layer: 'star-metro-routes',
+                    opacity: 0
+                },
+                {
+                    layer: 'star-metro-people',
                     opacity: 0
                 }
             ],
@@ -45,12 +53,20 @@ var config = {
             },
             onChapterEnter: [
                 {
+                    layer: 'water-mains',
+                    opacity: 0
+                },
+                {
                     layer: 'star-metro-stops',
                     opacity: 1
                 },
                 {
                     layer: 'star-metro-routes',
                     opacity: 1
+                },
+                {
+                    layer: 'star-metro-people',
+                    opacity: 0
                 }
             ],
             onChapterExit: []
@@ -68,14 +84,39 @@ var config = {
             },
             onChapterEnter: [
                 {
+                    layer: 'water-mains',
+                    opacity: 0
+                },
+                {
+                    layer: 'star-metro-stops',
+                    opacity: 1
+                },
+                {
+                    layer: 'star-metro-routes',
+                    opacity: 1
+                },
+                {
                     layer: 'star-metro-people',
                     opacity: 1
                 }
             ],
-            onChapterExit: [
+            onChapterExit: []
+        },
+        {
+            id: 'uupi-1',
+            title: 'Underground Utilities and Public Infrastructure',
+            image: '',
+            description: 'Say something cool about UUPI.  Water!',
+            location: {
+                center: [-84.0991, 30.4572],
+                zoom: 10.31,
+                pitch: 27.00,
+                bearing: -46.8
+            },
+            onChapterEnter: [
                 {
-                    layer: 'star-metro-people',
-                    opacity: 0
+                    layer: 'water-mains',
+                    opacity: 1
                 },
                 {
                     layer: 'star-metro-stops',
@@ -84,9 +125,14 @@ var config = {
                 {
                     layer: 'star-metro-routes',
                     opacity: 0
+                },
+                {
+                    layer: 'star-metro-people',
+                    opacity: 0
                 }
-            ]
-        }        
+            ],
+            onChapterExit: []
+        }       
 
     ]
 };
