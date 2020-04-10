@@ -53,9 +53,7 @@ var config = {
                     opacity: 1
                 }
             ],
-            onChapterExit: [
-
-            ]
+            onChapterExit: []
         },
         {
             id: 'starmetro-2',
