@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/davidcarnes/ck8os9p9q3vqi1is6427je8pw',
+    style: 'mapbox://styles/davidcarnes/ck8os9p9q3vqi1is6427je8pw?fresh=true',
     accessToken: 'pk.eyJ1IjoiZGF2aWRjYXJuZXMiLCJhIjoiY2szb3FvZ3I4MjN6ZDNrbnV5dmE2Z2I4biJ9.wFBByoIKSuX8Igwgq1eI9g',
     showMarkers: false,
     theme: 'dark',
